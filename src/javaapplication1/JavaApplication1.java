@@ -26,7 +26,6 @@ public class JavaApplication1 {
         Matcher matcher = pattern.matcher(dbDate);
         if (matcher.find()){
             year = matcher.group(0);
-            System.out.println(year);
         }
         pattern = Pattern.compile("\\-\\d+\\-");
         matcher = pattern.matcher(dbDate);
