@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<persVO>
+    <persVORow>
+        <TAB_NUM>1</TAB_NUM>
+        <FULL_NAME>Подлесных Елена Александровна</FULL_NAME>
+        <LOGIN>YPodlesn</LOGIN>
+        <ACCEPT_DATE>2013-01-28</ACCEPT_DATE>
+        <MANAGER>Заруба Наталья Георгиевна</MANAGER>
+        <EMPLOYEEDIVISION>Головной Банк\Департамент учета, методологии и ресурсов\Управление бухгалтерского учета хозяйственных операций, заработной платы и налогов\Отдел учета операций по расчетам с работниками</EMPLOYEEDIVISION>
+    </persVORow>
+</persVO>

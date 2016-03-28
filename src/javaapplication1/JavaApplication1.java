@@ -5,8 +5,11 @@
  */
 package javaapplication1;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javaapplication1.utils.MyWordToHtml;
+
+
 
 /**
  *
@@ -17,12 +20,30 @@ public class JavaApplication1 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws java.text.ParseException {
+    public static void main(String[] args) {
+        try {
+            //Docxj docxj = new Docxj();
+            //docxj.doStuff();
+            //HWPFTest.doStuff();
+            //AnotherPOI.doStuff("$FIO", "YOOOOOOOOO");
+            //RTFTester.doStuff();
+            //PDFTester.doStuff();
+            //WordToHtml wth = new WordToHtml();
+            //wth.convertWord();
+            
+            MyWordToHtml.convert("D:/", "input.doc");
+            /*int[] a = {1,2,3,4};
+            for (int c: a){
+            System.out.println(""+c);
+            }*/
+        } catch (Throwable ex) {
+            Logger.getLogger(JavaApplication1.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
-        
-        Robot robot = new RobotChild();
-        robot.sayHello();
         
     }
 
+    
+   
+    
 }
